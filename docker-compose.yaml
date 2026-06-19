@@ -12,8 +12,7 @@ services:
       - monitoring
     depends_on:
       - prometheus
-      - loki
-      - tempo
+
 
   prometheus:
     image: prom/prometheus:v2.53.5
